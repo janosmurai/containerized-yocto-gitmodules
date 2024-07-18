@@ -1,0 +1,24 @@
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky
+	branch = scarthgap
+[submodule "meta-mender"]
+	path = meta-mender
+	url = https://github.com/mendersoftware/meta-mender.git
+	branch = scarthgap
+[submodule "meta-mender-community"]
+	path = meta-mender-community
+	url = https://github.com/mendersoftware/meta-mender-community.git
+	branch = scarthgap
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+	branch = scarthgap
+[submodule "sources/meta-qt5"]
+	path = sources/meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5
+	branch = scarthgap
+[submodule "sources/meta-ti"]
+	path = sources/meta-ti
+	url = https://git.yoctoproject.org/git/meta-ti
+	branch = scarthgap
