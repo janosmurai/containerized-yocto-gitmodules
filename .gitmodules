@@ -1,7 +1,3 @@
-[submodule "poky"]
-	path = poky
-	url = git://git.yoctoproject.org/poky
-	branch = scarthgap
 [submodule "meta-mender"]
 	path = meta-mender
 	url = https://github.com/mendersoftware/meta-mender.git
