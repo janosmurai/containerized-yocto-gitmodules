@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+    <remote name="mendersoftware" fetch="https://github.com/mendersoftware/"/>
+    <remote name="oe" fetch="git://git.openembedded.org"/>
+    <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+
+     <project name="poky"
+        remote="yocto"
+        revision="scarthgap"
+        path="poky"/>
+
+     <project name="meta-mender"
+        remote="mendersoftware"
+        revision="scarthgap"
+        path="meta-mender"/>
+
+     <project name="meta-mender-community"
+        remote="mendersoftware"
+        revision="scarthgap"
+        path="meta-mender-community"/>
+
+    <project name="meta-openembedded"
+        remote="oe"
+        revision="scarthgap"
+        path="meta-openembedded"/>
+
+    <project name="meta-qt5"
+        remote="qt"
+        revision="scarthgap"
+        path="meta-qt5"/>
+
+    <project name="meta-ti"
+        remote="yocto"
+        revision="scarthgap"
+        path="meta-ti"/>
+
+    <project name="meta-arm"
+        remote="yocto"
+        revision="scarthgap"
+        path="meta-arm"/>
+</manifest>
